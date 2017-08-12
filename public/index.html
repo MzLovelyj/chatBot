@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Real time Chat :)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <h1>Lets Chat!</h1>
+        <form>
+            <input id="message" type="text" placeholder="Your Message" />
+            <input type="submit" value="send" />
+        </form>
+
+        <ul id="thread"></ul>
+
+        <center>
+            <div id="footer">
+                <div class=box>
+                    <hr>
+                    <p> Made with<span style="font-size:140%;color:#339a7d;">&hearts;</span>by Jessica. </p>
+                    <a href="https://www.linkedin.com/in/jesspalacios/" target="_blank">Linkedin Profile</a>
+                    <p> Or </p> <a href="https://github.com/MzLovelyj" target="_blank">GitHub</a>
+                    <!--target="_blank" allows to open the link in a new tab-->
+                </div>
+                <!-- .box -->
+            </div>
+            <!-- #footer -->
+
+    </div>
+    <!-- #wrapper -->
+
+    </center>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="client.js"></script>
+</body>
+
+</html>
