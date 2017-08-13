@@ -1,5 +1,10 @@
+ //  var socket = io.connect('http://localhost:3000');
+ //  production
  // initializing socket, connection to server
- var socket = io.connect('http://localhost:3000');
+ var socket = io();
+
+
+
  socket.on('connect', function(data) {
      socket.emit('join', 'Hello server from client');
  });

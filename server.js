@@ -23,5 +23,6 @@ io.on('connection', function(client) {
     });
 });
 
-server.listen(3000);
-console.log('HEY you got it up and Running on Meow port 3000  =^._.^= ');
+server.listen(process.env.PORT || 5000);
+
+console.log('HEY you got it up and Running on Meow port 5000  =^._.^= ');
