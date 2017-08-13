@@ -1,5 +1,5 @@
  //  var socket = io.connect('http://localhost:3000');
- //  production
+ //  changed to  var socket = io(); to deploy with Heroku since it was not listening to the port originally
  // initializing socket, connection to server
  var socket = io();
 

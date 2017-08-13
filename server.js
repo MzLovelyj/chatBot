@@ -23,6 +23,7 @@ io.on('connection', function(client) {
     });
 });
 
+// server.listen(3000);
+// changed to server.listen(process.env.PORT || 5000); to deploy on Heroku
 server.listen(process.env.PORT || 5000);
-
 console.log('HEY you got it up and Running on Meow port 5000  =^._.^= ');

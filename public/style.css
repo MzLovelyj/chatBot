@@ -2,6 +2,7 @@ html,
 body {
     text-align: center;
     font-family: 'Avenir Next', 'Helvetica', 'Arial', sans-serif;
+    background: #87d7c1;
 }
 
 html,
@@ -29,6 +30,7 @@ li:nth-child(odd) {
 #wrapper {
     min-height: 100%;
     position: relative;
+    background-color: #87d7c1;
 }
 
 #footer {
